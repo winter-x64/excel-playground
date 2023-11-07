@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "excel-playground"
+version = "0.1.0"
+description = ""
+authors = ["winter_x64 <75623356+winter-x64@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pathlib2 = { version = "^2.2", markers = "python_version <= '3.4' or sys_platform == 'win32'" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
